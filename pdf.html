@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF閲覧</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; font-family: sans-serif; }
+        iframe { width: 100%; height: 100%; border: none; }
+        .btn-container { padding: 40px; text-align: center; }
+        .btn { display: inline-block; padding: 12px 24px; background: #007bff; color: white; text-decoration: none; border-radius: 25px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <iframe src="document.pdf">
+        <div class="btn-container">
+            <p>PDFが自動で表示されない場合は、以下のボタンを押してご確認ください。</p>
+            <a href="document.pdf" target="_blank" class="btn">PDFを開く</a>
+        </div>
+    </iframe>
+</body>
+</html>
